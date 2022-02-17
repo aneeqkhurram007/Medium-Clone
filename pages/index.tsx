@@ -10,11 +10,10 @@ interface Props {
 }
 
 export default function Home({ posts }: Props) {
-  console.log(posts)
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>Create Next App</title>
+        <title>Medium Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
